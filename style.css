@@ -1,0 +1,42 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header {
+  
+  color: #fff;
+  height: 60px;
+}
+
+.header-logo {
+  float: left;
+  padding: 10px 20px;
+}
+
+.header-list {
+  float: right;
+  margin-right: 30%;
+  /*background-color: #26d0c9;*/
+}
+
+.header-list li {
+  float: left;
+  padding: 20px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+
+
+}
